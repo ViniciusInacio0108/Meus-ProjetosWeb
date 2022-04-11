@@ -1,0 +1,163 @@
+/* limpas formatações padrões */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	background: #e6e6e6;
+}
+
+b{
+	margin: 0px;
+		border: 1px solid red;
+}
+
+h1{
+	margin: 0px;
+
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0px;
+}
+
+img{
+	width: 40em;
+}
+
+#barra-navegacao a:link, #barra-navegacao a:visited{
+	color: white;
+}
+
+#barra-navegacao a:hover{
+	background: white;
+	color: black;
+}
+
+#barra-navegacao a:active{
+	color: black;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/*barra de navegação*/
+
+#barra-navegacao{
+	background: #D8DC6A;
+	right: 50%;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	height: 140px;
+	border: 1px solid #D8DC6A;
+}
+
+#logo{
+	font-weight: bold;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin: 15px;
+}
+
+#links-menu{
+	margin: 25px;
+	text-align: center;
+
+}
+
+.links-menu-cada{
+	margin: 20px;
+	padding: 10px;
+}
+
+
+/* fim barra de navegação*/
+
+/*conteudo*/
+
+.conteiner{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.conteudo{
+	margin-top: 15px;
+	width: 660px;
+	float: left;
+	padding: 10px;
+	background: white;
+}
+
+.recentes{
+	margin-top: 15px;
+	float: right;
+	width: 240px;
+	padding: 10px;
+	background: white;
+	font-size: 15px;
+}
+
+.categorias{
+	float: right;
+	margin-top: 20px;
+	width: 240px;
+	padding: 10px;
+	background: white;
+	font-size: 15px;
+
+}
+
+.recentes h1{
+	background: grey;
+	padding: 2px;
+	font-size: 1.5em;
+	align-content: center;
+}
+
+.categorias h1{
+	background: grey;
+	padding: 2px;
+	font-size: 1.5em;
+	align-content: center;
+}
+
+.categorias a{
+	color: #D8DC6A;
+	display: block;
+	padding: 2px;
+}
+
+#botaopostagem{
+	color: black;
+	position: static;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background: #CCC;
+	width: 660px;
+	margin: 10px 0px;
+}
+
+/* fim conteudo*/
+
+/*rodape*/
+
+#rodape{
+	color: black;
+	position: static;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background: #CCC;
+
+	margin: 0 auto;
+}

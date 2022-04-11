@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+    <div class="Conteiner">
+    <!--
+      -- ─── HEADER DO SITE ─────────────────────────────────────────────────────────────────────
+      -->
+
+        <header>
+            <!--
+            -- ─── LOGO ────────────────────────────────────────────────────────
+            -->
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+
+            <!--
+            -- ─── BARRA DE NAV ────────────────────────────────────────────────
+            -->
+            <nav class="nav">
+                <a href="#">home</a>
+                <a href="#">Exposições</a>
+                <a href="#">Pesquisa</a>
+                <a href="#">Acervo</a>
+                <a href="#">Vídeos</a>
+                <a href="#">Fotos</a>
+                <a href="#">Contato</a>
+            </nav>
+
+        </header>
+
+        <!--
+        -- ─── CONTEUDO DO SITE ───────────────────────────────────────────────────────────
+        -->
+
+        <section id="conteudo">
+
+            <div class="conteudo-esquerda">
+
+                <img src="img/museu.png" alt="" class="imagem_maior">
+
+                <div class="pequeno">
+                    <h2 class="titulo_postagem">Vídeo: Conheca o museu</h2>
+                    <iframe width="90%" height="100%" src="https://www.youtube.com/embed/GcWNKDSocoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="pequeno">
+                    <h2 class="titulo_postagem">Mapa: Encontre o museu</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5093956219525!2d-43.18178988452926!3d-22.894574843192398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5732a12a31%3A0x316901f971660ce1!2sMuseu%20do%20Amanh%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1647971712372!5m2!1spt-BR!2sbr" width="90%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="pequeno">
+                    <h2 class="titulo_postagem">Exposições</h2>
+                    <ul>
+                        <li><a href="#" class="links_postagens">Os assustadores insetos</a></li>
+                        <li><a href="#" class="links_postagens">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                        <li><a href="#" class="links_postagens">Preguiça gigante e tigre-dente-de-sabre</a></li>
+                        <li><a href="#" class="links_postagens">Plantas do Brasil Central</a></li>
+                        <li><a href="#" class="links_postagens">Teresa CristinaÇ Imperatriz</a></li>
+                        <li><a href="#" class="links_postagens">Arte dos Dinossauros</a></li>
+                        <li><a href="#" class="links_bolds">Veja todos (65)</a></li>
+                    </ul>
+                </div>
+
+                <div class="pequeno">
+                    <h2 class="titulo_postagem">200 anos de história</h2>
+                    <p class="texto_postagens">Numa ponta que avançava sobre o mar, posteriomente conhecida como Ponta do calabouço, 
+                        entre as praias de Piaçaba e Santa Luiza, no centro histórico do RJ, os portugueses contruíram em 1063
+                        a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                    </p>
+                    <a href="#" class="links_bolds">Leia mais</a>
+                </div>
+
+            </div>
+
+            <div class="conteudo-direita">
+
+                <img src="img/depoimento.png" alt="depoimento" class="imagem">
+
+                <div id="visita">
+                    <h2 class="titulo_esquerda">Faça uma visita</h3>
+
+                    <label for="data">Data: </label>
+                    <input type="date" name="data" id="data">
+
+                    <label for="quantidade_pessoas">Qntd de pessoas: </label>
+                    <input type="number" name="quantidade_pessoas" id="quantidade_pessoas" value="1">
+
+                    <input type="button" value="Verificar disponibilidade" id="botao_disponibilidade">
+                    
+                </div>
+
+                <div id="galeria">
+                    <h2 class="titulo_esquerda">Galeria de fotos</h3>
+
+                    <div id="fotos">
+                        <a href="#" class="imagens_galeria">
+                            <img src="img/imagem1.jpg" alt="imagem1" class="imagem_galeria">
+                        </a>
+
+                        <a href="#" class="imagens_galeria">
+                            <img src="img/imagem2.jpg" alt="imagem2" class="imagem_galeria">
+                        </a>
+
+                    </div>
+
+                    <div id="fotos">
+                        <a href="#" class="imagens_galeria">
+                            <img src="img/imagem3.jpg" alt="imagem3" class="imagem_galeria">
+                        </a>
+
+                        <a href="#" class="imagens_galeria">
+                            <img src="img/imagem4.jpg" alt="imagem4" class="imagem_galeria">
+                        </a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!--
+        -- ─── IMAGEM QUE DIVIDE O FOOTER DO CONTEUDO DO SITE ─────────────────────────────
+        -->
+
+        <section id="divisao">
+            
+        </section>
+
+        <!--
+        -- ─── RODAPE DO SITE ─────────────────────────────────────────────────────────────
+        -->
+
+            
+        <footer id="rodape">
+            
+            <nav id="menus_rodape">
+                <a href="#" class="links_rodape">Home</a>
+                <a href="#" class="links_rodape">Exposições</a>
+                <a href="#" class="links_rodape">Pesquisa</a>
+                <a href="#" class="links_rodape">Acervo</a>
+                <a href="#" class="links_rodape">Vídeos</a>
+                <a href="#" class="links_rodape">Fotos</a>
+                <a href="#" class="links_rodape">Contato</a>
+
+            </nav>
+
+            <section id="direitos_rodape">
+                2019 <a href="#" class="links_rodape">Museu Nacional</a> - Todos os direitos resevados
+            </section>
+
+        </footer>
+
+        </div>
+
+    <!--
+      -- ─── FIM ────────────────────────────────────────────────────────────────────────
+      -->
+
+    </div>
+
+
+    <!-- ------ parte do cabecalho que ainda esta incompleta gracas a mim ------ --> 
+
+    <!-- ------ basta usar o alt + x para poder deixar esses comentarios ------- -->
+
+</body>
+</html>

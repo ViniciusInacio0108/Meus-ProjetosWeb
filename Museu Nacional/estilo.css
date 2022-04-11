@@ -1,0 +1,219 @@
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: url(img/fundo.png) repeat-x;
+}
+
+/*
+ * ─── CONTEINER PRINCIPAL DA PAGINA INTEIRA ──────────────────────────────────────
+ */
+
+    
+
+.Conteiner{
+    margin: 0 auto;
+    width: 95%;
+    min-width: 768px;
+}
+
+/*
+ * ─── COISAS DO HEADER ───────────────────────────────────────────────────────────
+ */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #af670a;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    color: darkgreen;
+    border-bottom: 1px solid darkgreen;
+}
+
+/*
+ * ─── CONTEINER DO CONTEUDO ────────────────────────────────────────────────
+ */
+
+    
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*
+* ─── CONTEUDO PRINCIPAL DO LADO ESQUERDO ────────────────────────────────────────
+*/
+
+.conteudo-esquerda {
+        display: flex;
+        flex-direction: row;
+        width: 65.8%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+        .imagem_maior{
+            width: 100%;
+        }
+
+        .pequeno {
+            width: 50%;
+            margin-bottom: 80px;
+        }
+
+        .titulo_postagem {
+            color: darkgreen;
+        }
+
+        .links_postagens {
+            color: #af670a;
+            text-decoration: none;
+        }
+
+        .links_postagens {
+            color: #af670a;
+            text-decoration: none;
+        }
+
+        .links_bolds {
+            color: #af670a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+/*
+ * ─── TODA A BARRA LATERAL DIREITA DA TELA ───────────────────────────────────────
+ */
+
+    
+
+.conteudo-direita {
+    width: 32.4%;
+}
+    /*
+     * ─── IMAGEM DE DEPOIMENTO ───────────────────────────────────────────────────────
+     */
+
+        
+    .imagem{
+        width: 100%;
+    }
+
+/*
+ * ─── SESSAO DE FACA UMA VISITA ──────────────────────────────────────────────────
+ */
+
+    
+
+    #visita {
+        background-color:moccasin;
+        padding: 10px 20px;
+    }
+        .titulo_esquerda {
+            color: #af670a;
+            padding: 0px;
+            margin-bottom: 10px;
+        }
+
+        #data {
+            width: 125px;
+        }
+
+        #quantidade_pessoas {
+            width: 30px;
+        }
+
+        #botao_disponibilidade {
+            width: 100%;
+            height: 50px;
+            font-size: larger;
+            font-weight: bold;
+            color: white;
+            background: #af670a;
+            border: none;
+            margin-top: 20px;
+        }
+    
+/*
+ * ─── GALERIA DE IMAGENS ─────────────────────────────────────────────────────────
+ */
+
+    #galeria {
+        background-color:antiquewhite;
+        padding: 10px 20px;
+    }
+
+    #fotos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .imagens_galeria {
+        background: url(img/fundo-foto.png) no-repeat left;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .imagem_galeria {
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+/*
+ * ─── IMAGEM QUE DIVIDE O RODAPE DO CONTEUDO ─────────────────────────────────────
+ */
+
+#divisao {
+    width: 100%;
+    height: 2px;
+    background: url(img/fundo-rodape.png) no-repeat center;
+    padding: 10px;
+}
+
+/*
+ * ─── RODAPE E TODOS OS SEUS FILHOS ──────────────────────────────────────────────
+ */
+
+#rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+    #menus_rodape {
+        padding: 5px;
+    }
+
+    #direitos_rodape {
+        padding: 5px;
+    }
+
+    .links_rodape {
+        color: #af670a;
+        text-decoration: none;
+        margin: 0px 15px;
+    }
