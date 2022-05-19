@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ------- ao inves de fazer hardcode, colocar conexao com server -------- -->
+    <!-- ----------- para controlar a quantidade de imagens e barras ----------- -->
+
+    <!-- --------------------------- TopBar Stories ---------------------------- -->
+    <header id="bars">
+
+            <div class="bar_on" id="bar1"></div>
+            <div class="bar_off" id="bar2"></div>
+            <div class="bar_off" id="bar3"></div>
+
+    </header>
+    
+    <!-- ------------------------------- Content ------------------------------- -->
+    <section>
+
+        <img class="content_on" id="1" src="./imagens/1.png" alt="1">
+        <img class="content_off" id="2" src="./imagens/2.png" alt="2">
+        <img class="content_off" id="3" src="./imagens/3.png" alt="3">
+
+    </section>
+
+    <div id="next" onclick="proximo()">
+
+    </div>
+
+    <div id="previous" onclick="anterior()">
+
+    </div>
+
+    <!-- ------------------------------ Veja mais ------------------------------ -->
+    <footer class="footer">
+
+        <button type="submit" onclick="clickForMore()">
+            Click for more
+        </button>
+
+    </footer>
+
+
+    <!-- --------------------------------- Js ---------------------------------- -->
+    <script>
+
+        // ao inves de posição poderia ser a variavel nome para aplicar melhor no redirecionamento
+
+        let posicao = 1
+
+        function proximo () {
+            if (posicao < 3) {
+                console.log("Proximo")
+                document.getElementById(posicao).className = "content_off"
+                document.getElementById("bar"+posicao).className = "bar_off"
+                document.getElementById(posicao+1).className = "content_on"
+                document.getElementById("bar"+(posicao+1)).className = "bar_on"
+                posicao += 1
+            }
+        }
+
+        function anterior () {
+            if (posicao>1){
+                console.log("Anterior")
+                document.getElementById(posicao).className = "content_off"
+                document.getElementById("bar"+posicao).className = "bar_off"
+                document.getElementById(posicao-1).className = "content_on"
+                document.getElementById("bar"+(posicao-1)).className = "bar_on"
+                posicao -=1
+            }
+        }
+
+        function clickForMore(){
+            if (document.getElementById(posicao).className === "content_on") {
+                document.location.href = posicao+".html"
+            }
+        }
+
+    </script>
+</body>
+</html>
