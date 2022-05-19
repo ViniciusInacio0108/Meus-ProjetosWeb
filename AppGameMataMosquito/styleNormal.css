@@ -1,0 +1,46 @@
+* {
+    cursor: url(./imagens/mata_mosca.png), auto;
+}
+
+body {
+    background-image: url("./imagens/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    min-width: 1000px;
+}
+
+.hud {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 70px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.vida {
+    margin: 0;
+    padding: 0;
+    height: 15px;
+}
+
+.coracao {
+    width: 30px;
+}
+
+.cronometro {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
